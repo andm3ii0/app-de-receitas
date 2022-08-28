@@ -1,6 +1,7 @@
 {
   "name": "recipes-app-test",
   "version": "0.1.0",
+  "homepage": "https://andm3ii0.github.io/app-de-receitas/",
   "private": true,
   "engines": {
     "node": "16"
