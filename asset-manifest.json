@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/app-de-receitas/static/css/main.9a33784a.css",
+    "main.js": "/app-de-receitas/static/js/main.e984d8c0.js",
+    "static/media/BG-Image.png": "/app-de-receitas/static/media/BG-Image.325d63956051ad1eb637.png",
+    "static/media/whiteHeartIcon.svg": "/app-de-receitas/static/media/whiteHeartIcon.2b822118952dc5140129c6349fcd0472.svg",
+    "static/media/blackHeartIcon.svg": "/app-de-receitas/static/media/blackHeartIcon.083cb006913d197c95857ebfa2161db7.svg",
+    "static/media/Beef.svg": "/app-de-receitas/static/media/Beef.ea1914c892fef5d32bc0a1eed747004a.svg",
+    "static/media/Sheep.svg": "/app-de-receitas/static/media/Sheep.5cd6f3e2fd6aeb2bd1f241bcfda88122.svg",
+    "static/media/Thanksgiving.svg": "/app-de-receitas/static/media/Thanksgiving.66dfa8583c9fc441d4ed1cdb83af790f.svg",
+    "static/media/Cocktail.svg": "/app-de-receitas/static/media/Cocktail.6b0ae6dceb80344a7d406f8d83b62d02.svg",
+    "static/media/Double Chocolate Cake.svg": "/app-de-receitas/static/media/Double Chocolate Cake.0219c0b58968d0dc70375fd2eac459da.svg",
+    "static/media/Cup With Straw.svg": "/app-de-receitas/static/media/Cup With Straw.736b021d186764e42fa2cee067708807.svg",
+    "static/media/Coffee to Go.svg": "/app-de-receitas/static/media/Coffee to Go.db4d231b5b4404183dde9ec1c625ae58.svg",
+    "static/media/Cutlery.svg": "/app-de-receitas/static/media/Cutlery.df86ddb4443c65d94287ed1834f711a6.svg",
+    "static/media/Milkshake.svg": "/app-de-receitas/static/media/Milkshake.bdf304167cb322c6a67e40748cb23be1.svg",
+    "static/media/Toast.svg": "/app-de-receitas/static/media/Toast.c4f8d6d00c69d8852355659bfbd185b1.svg",
+    "static/media/Orange Soda.svg": "/app-de-receitas/static/media/Orange Soda.64a8670bfb0a6aa77de9591261a2b1ed.svg",
+    "static/media/Wine Bar.svg": "/app-de-receitas/static/media/Wine Bar.22a21e6d1b5241049daa9a990316e8ca.svg",
+    "index.html": "/app-de-receitas/index.html",
+    "static/media/share.svg": "/app-de-receitas/static/media/share.e12c3b34e69a46470b22890f697630a9.svg",
+    "static/media/email.svg": "/app-de-receitas/static/media/email.8ac54a2e2669f5d37dbe7c48513fffd8.svg",
+    "static/media/password.svg": "/app-de-receitas/static/media/password.3738dbcf93083284250f3037e76e03be.svg",
+    "static/media/unliked.svg": "/app-de-receitas/static/media/unliked.87e685838e84c3606d66ed1e41ebd25c.svg",
+    "static/media/perfil.svg": "/app-de-receitas/static/media/perfil.e23d61273579f99fae6511be9f5a5834.svg",
+    "static/media/lupa.svg": "/app-de-receitas/static/media/lupa.2712e141bbda50fc1866c695723bc3db.svg",
+    "static/media/liked.svg": "/app-de-receitas/static/media/liked.67a2670e9a7a35e2075efe037ffa569b.svg",
+    "main.9a33784a.css.map": "/app-de-receitas/static/css/main.9a33784a.css.map",
+    "main.e984d8c0.js.map": "/app-de-receitas/static/js/main.e984d8c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a33784a.css",
+    "static/js/main.e984d8c0.js"
+  ]
+}
