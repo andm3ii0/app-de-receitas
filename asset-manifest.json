@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/app-de-receitas/static/css/main.9a33784a.css",
-    "main.js": "/app-de-receitas/static/js/main.2a37eb20.js",
+    "main.js": "/app-de-receitas/static/js/main.5820e13c.js",
     "static/media/BG-Image.png": "/app-de-receitas/static/media/BG-Image.325d63956051ad1eb637.png",
     "static/media/whiteHeartIcon.svg": "/app-de-receitas/static/media/whiteHeartIcon.2b822118952dc5140129c6349fcd0472.svg",
     "static/media/blackHeartIcon.svg": "/app-de-receitas/static/media/blackHeartIcon.083cb006913d197c95857ebfa2161db7.svg",
@@ -26,10 +26,10 @@
     "static/media/lupa.svg": "/app-de-receitas/static/media/lupa.2712e141bbda50fc1866c695723bc3db.svg",
     "static/media/liked.svg": "/app-de-receitas/static/media/liked.67a2670e9a7a35e2075efe037ffa569b.svg",
     "main.9a33784a.css.map": "/app-de-receitas/static/css/main.9a33784a.css.map",
-    "main.2a37eb20.js.map": "/app-de-receitas/static/js/main.2a37eb20.js.map"
+    "main.5820e13c.js.map": "/app-de-receitas/static/js/main.5820e13c.js.map"
   },
   "entrypoints": [
     "static/css/main.9a33784a.css",
-    "static/js/main.2a37eb20.js"
+    "static/js/main.5820e13c.js"
   ]
 }
