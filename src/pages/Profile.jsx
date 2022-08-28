@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/no-autofocus */
-/* eslint-disable react/jsx-max-depth */
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import Header from '../components/Header/Header';
@@ -103,14 +101,14 @@ export default function Profile() {
             <button
               type="button"
               data-testid="profile-done-btn"
-              onClick={ () => history.push('/done-recipes') }
+              onClick={ () => history.push('/app-de-receitas/done-recipes') }
             >
               Done Recipes
             </button>
             <button
               type="button"
               data-testid="profile-favorite-btn"
-              onClick={ () => history.push('/favorite-recipes') }
+              onClick={ () => history.push('/app-de-receitas/favorite-recipes') }
             >
               Favorite Recipes
             </button>
@@ -119,7 +117,7 @@ export default function Profile() {
               data-testid="profile-logout-btn"
               onClick={ () => {
                 localStorage.clear();
-                history.push('/');
+                history.push('/app-de-receitas/');
               } }
             >
               Logout

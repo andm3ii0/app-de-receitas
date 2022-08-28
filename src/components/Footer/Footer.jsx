@@ -7,10 +7,10 @@ import drinkIcon from '../../images/Wine Bar.svg';
 function Footer() {
   return (
     <footer data-testid="footer">
-      <Link to="/foods">
+      <Link to="/app-de-receitas/foods">
         <img data-testid="food-bottom-btn" src={ mealIcon } alt=" Meal Icon" />
       </Link>
-      <Link to="/drinks">
+      <Link to="/app-de-receitas/drinks">
         <img data-testid="drinks-bottom-btn" src={ drinkIcon } alt="Drinks Icon" />
       </Link>
     </footer>

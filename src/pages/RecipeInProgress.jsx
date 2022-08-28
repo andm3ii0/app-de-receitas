@@ -114,7 +114,7 @@ export default function RecipeInProgress({ drink = false }) {
           type="button"
           data-testid="finish-recipe-btn"
           disabled={ ingredients.length !== checkedIngredients.length }
-          onClick={ () => history.push('/done-recipes') }
+          onClick={ () => history.push('/app-de-receitas/done-recipes') }
         >
           Finalizar
         </button>
@@ -172,7 +172,7 @@ export default function RecipeInProgress({ drink = false }) {
         type="button"
         data-testid="finish-recipe-btn"
         disabled={ ingredients.length !== checkedIngredients.length }
-        onClick={ () => history.push('/done-recipes') }
+        onClick={ () => history.push('/app-de-receitas/done-recipes') }
       >
         Finalizar
       </button>

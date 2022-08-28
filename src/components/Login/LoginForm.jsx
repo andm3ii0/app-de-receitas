@@ -15,7 +15,7 @@ export default function LoginForm() {
     localStorage.setItem('mealsToken', '1');
     localStorage.setItem('cocktailsToken', '1');
     localStorage.setItem('user', JSON.stringify({ email }));
-    history.push('/foods');
+    history.push('/app-de-receitas/foods');
   };
 
   return (

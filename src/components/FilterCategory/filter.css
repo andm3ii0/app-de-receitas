@@ -1,10 +1,11 @@
 .filter {
   width: 100vw;
-  height: 100px;
+  height: 120px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-content: stretch;
   align-items: center;
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -29,7 +30,7 @@
 
 @media only screen and (min-width : 320px) {
   .filter button {
-    width: 110px;
+    width: 30vw;
     height: 40px;
     font-weight: 600;
     font-size: 14px;

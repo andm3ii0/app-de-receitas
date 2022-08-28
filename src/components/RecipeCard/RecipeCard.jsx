@@ -40,10 +40,10 @@ export default function RecipeCard({ recipe, index, drink }) {
     return (
       <div
         className="main-card-recipe"
-        onClick={ () => history.push(`/drinks/${recipe.idDrink}`) }
+        onClick={ () => history.push(`/app-de-receitas/drinks/${recipe.idDrink}`) }
         role="button"
         tabIndex={ 0 }
-        onKeyDown={ () => history.push(`/drinks/${recipe.idDrink}`) }
+        onKeyDown={ () => history.push(`/app-de-receitas/drinks/${recipe.idDrink}`) }
       >
         <img
           data-testid={ `${index}-card-img` }
@@ -82,10 +82,10 @@ export default function RecipeCard({ recipe, index, drink }) {
   return (
     <div
       className="main-card-recipe"
-      onClick={ () => history.push(`/foods/${recipe.idMeal}`) }
+      onClick={ () => history.push(`/app-de-receitas/foods/${recipe.idMeal}`) }
       role="button"
       tabIndex={ 0 }
-      onKeyDown={ () => history.push(`/foods/${recipe.idMeal}`) }
+      onKeyDown={ () => history.push(`/app-de-receitas/foods/${recipe.idMeal}`) }
     >
       <div>
         <img

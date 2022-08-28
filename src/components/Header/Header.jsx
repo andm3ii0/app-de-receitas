@@ -11,7 +11,7 @@ export default function Header({ pageTitle, searchIconRender = true }) {
 
   return (
     <header>
-      <NavLink className="profile" to="/profile">
+      <NavLink className="profile" to="/app-de-receitas/profile">
         <img
           src={ profileIcon }
           alt="profile"

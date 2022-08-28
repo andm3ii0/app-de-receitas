@@ -13,24 +13,24 @@ import FavoriteRecipes from '../pages/FavoriteRecipes';
 export default function Routes() {
   return (
     <Switch>
-      <Route exact path="/" component={ Login } />
-      <Route exact path="/foods" component={ Foods } />
-      <Route exact path="/drinks" component={ Drinks } />
-      <Route exact path="/foods/:id" component={ FoodDetail } />
-      <Route exact path="/drinks/:id" component={ DrinkDetail } />
+      <Route exact path="/app-de-receitas/" component={ Login } />
+      <Route exact path="/app-de-receitas/foods" component={ Foods } />
+      <Route exact path="/app-de-receitas/drinks" component={ Drinks } />
+      <Route exact path="/app-de-receitas/foods/:id" component={ FoodDetail } />
+      <Route exact path="/app-de-receitas/drinks/:id" component={ DrinkDetail } />
       <Route
         exact
-        path="/foods/:id/in-progress"
+        path="/app-de-receitas/foods/:id/in-progress"
         component={ RecipeInProgress }
       />
       <Route
         exact
-        path="/drinks/:id/in-progress"
+        path="/app-de-receitas/drinks/:id/in-progress"
         render={ () => <RecipeInProgress drink /> }
       />
-      <Route exact path="/profile" component={ Profile } />
-      <Route exact path="/done-recipes" component={ DoneRecipes } />
-      <Route exact path="/favorite-recipes" component={ FavoriteRecipes } />
+      <Route exact path="/app-de-receitas/profile" component={ Profile } />
+      <Route exact path="/app-de-receitas/done-recipes" component={ DoneRecipes } />
+      <Route exact path="/app-de-receitas/favorite-recipes" component={ FavoriteRecipes } />
     </Switch>
   );
 }

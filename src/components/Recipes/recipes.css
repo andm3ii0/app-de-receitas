@@ -10,16 +10,16 @@
 
 
 .manin-recipes-list .main-card-recipe {
-    width: 162px;
-    height: 170px;
+    width: 47vw;
+    height: 47vw;
     border-radius: 5px;
     margin: 0 5px 8px;
     background-color: white;
 }
 
 .manin-recipes-list .main-card-recipe img {
-    width: 162px;
-    height: 135px;
+    width: 47vw;
+    height: 37vw;
     object-fit: cover;
     object-position: 20% 10%;
     border-radius: 5px 5px 0 0;

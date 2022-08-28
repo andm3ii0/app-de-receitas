@@ -67,14 +67,14 @@ function Profile() {
       <button
         type="button"
         data-testid="profile-done-btn"
-        onClick={ () => history.push('/done-recipes') }
+        onClick={ () => history.push('/app-de-receitas/done-recipes') }
       >
         Done Recipes
       </button>
       <button
         type="button"
         data-testid="profile-favorite-btn"
-        onClick={ () => history.push('/favorite-recipes') }
+        onClick={ () => history.push('/app-de-receitas/favorite-recipes') }
       >
         Favorite Recipes
       </button>
@@ -83,7 +83,7 @@ function Profile() {
         data-testid="profile-logout-btn"
         onClick={ () => {
           localStorage.clear();
-          history.push('/');
+          history.push('/app-de-receitas/');
         } }
       >
         Logout

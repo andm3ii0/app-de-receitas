@@ -120,7 +120,7 @@ function RecipeDetails({ match }) {
           className="start-recipe-btn"
           type="button"
           data-testid="start-recipe-btn"
-          onClick={ () => history.push(`${match.url}/in-progress`) }
+          onClick={ () => history.push(`/${match.url}/in-progress`) }
         >
           {inProgress ? 'Continue Recipe' : 'Start Recipe'}
         </button>

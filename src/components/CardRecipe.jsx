@@ -48,7 +48,7 @@ function CardRecipe({
   };
   const history = useHistory();
   const redirectToRecipePage = () => {
-    history.push(`/${type}s/${id}`);
+    history.push(`/app-de-receitas/${type}s/${id}`);
   };
 
   return (

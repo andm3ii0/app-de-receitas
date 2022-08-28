@@ -161,7 +161,7 @@
 
 iframe {
   width: 95%;
-  height: 220px;
+  height: 300px;
   border: none;
 }
 
@@ -184,7 +184,7 @@ ul{
 .start-recipe-btn {
   position: fixed;
   bottom: 0;
-  width: 360px;
+  width:100vw;
   height: 45px;
   background: rgb(198, 255, 196);
   border: none;

@@ -14,9 +14,9 @@ export default function SearchBar() {
   useEffect(() => {
     if (searchResult !== null) {
       if (pathname === '/foods' && searchResult.length === 1) {
-        history.push(`/foods/${searchResult[0].idMeal}`);
+        history.push(`/app-de-receitas/foods/${searchResult[0].idMeal}`);
       } else if (searchResult.length === 1 && pathname === '/drinks') {
-        history.push(`/drinks/${searchResult[0].idDrink}`);
+        history.push(`/app-de-receitas/drinks/${searchResult[0].idDrink}`);
       }
     }
   }, [history, pathname, searchResult]);
